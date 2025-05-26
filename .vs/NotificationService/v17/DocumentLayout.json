@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hatami.Esmaeil\\source\\repos\\NotificationService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA6AC7-0675-4008-A11A-47FA2D71924F}|NotificationService\\NotificationService.csproj|c:\\users\\hatami.esmaeil\\source\\repos\\notificationservice\\notificationservice\\api\\controllers\\notificationcampaigncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA6AC7-0675-4008-A11A-47FA2D71924F}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\api\\controllers\\notificationcampaigncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA6AC7-0675-4008-A11A-47FA2D71924F}|NotificationService\\NotificationService.csproj|c:\\users\\hatami.esmaeil\\source\\repos\\notificationservice\\notificationservice\\application\\services\\jobtrackingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA6AC7-0675-4008-A11A-47FA2D71924F}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\application\\services\\jobtrackingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA6AC7-0675-4008-A11A-47FA2D71924F}|NotificationService\\NotificationService.csproj|c:\\users\\hatami.esmaeil\\source\\repos\\notificationservice\\notificationservice\\domain\\models\\campaignjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA6AC7-0675-4008-A11A-47FA2D71924F}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\domain\\models\\campaignjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA6AC7-0675-4008-A11A-47FA2D71924F}|NotificationService\\NotificationService.csproj|c:\\users\\hatami.esmaeil\\source\\repos\\notificationservice\\notificationservice\\infrastructure\\persistence\\notificationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA6AC7-0675-4008-A11A-47FA2D71924F}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\infrastructure\\persistence\\notificationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA6AC7-0675-4008-A11A-47FA2D71924F}|NotificationService\\NotificationService.csproj|c:\\users\\hatami.esmaeil\\source\\repos\\notificationservice\\notificationservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA6AC7-0675-4008-A11A-47FA2D71924F}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA6AC7-0675-4008-A11A-47FA2D71924F}|NotificationService\\NotificationService.csproj|c:\\users\\hatami.esmaeil\\source\\repos\\notificationservice\\notificationservice\\domain\\models\\notificationcampaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA6AC7-0675-4008-A11A-47FA2D71924F}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\domain\\models\\notificationcampaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hatami.Esmaeil\\source\\repos\\NotificationService\\NotificationService\\Program.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Program.cs",
+              "ToolTip": "C:\\Users\\Hatami.Esmaeil\\source\\repos\\NotificationService\\NotificationService\\Program.cs",
+              "RelativeToolTip": "NotificationService\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T11:46:57.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotificationCampaignController.cs",
+              "DocumentMoniker": "C:\\Users\\Hatami.Esmaeil\\source\\repos\\NotificationService\\NotificationService\\API\\Controllers\\NotificationCampaignController.cs",
+              "RelativeDocumentMoniker": "NotificationService\\API\\Controllers\\NotificationCampaignController.cs",
+              "ToolTip": "C:\\Users\\Hatami.Esmaeil\\source\\repos\\NotificationService\\NotificationService\\API\\Controllers\\NotificationCampaignController.cs",
+              "RelativeToolTip": "NotificationService\\API\\Controllers\\NotificationCampaignController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T11:44:42.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JobTrackingService.cs",
+              "DocumentMoniker": "C:\\Users\\Hatami.Esmaeil\\source\\repos\\NotificationService\\NotificationService\\Application\\Services\\JobTrackingService.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Application\\Services\\JobTrackingService.cs",
+              "ToolTip": "C:\\Users\\Hatami.Esmaeil\\source\\repos\\NotificationService\\NotificationService\\Application\\Services\\JobTrackingService.cs",
+              "RelativeToolTip": "NotificationService\\Application\\Services\\JobTrackingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAjwB0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T11:44:09.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NotificationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Hatami.Esmaeil\\source\\repos\\NotificationService\\NotificationService\\Infrastructure\\Persistence\\NotificationDbContext.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Infrastructure\\Persistence\\NotificationDbContext.cs",
+              "ToolTip": "C:\\Users\\Hatami.Esmaeil\\source\\repos\\NotificationService\\NotificationService\\Infrastructure\\Persistence\\NotificationDbContext.cs",
+              "RelativeToolTip": "NotificationService\\Infrastructure\\Persistence\\NotificationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T11:43:16.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CampaignJob.cs",
+              "DocumentMoniker": "C:\\Users\\Hatami.Esmaeil\\source\\repos\\NotificationService\\NotificationService\\Domain\\Models\\CampaignJob.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Domain\\Models\\CampaignJob.cs",
+              "ToolTip": "C:\\Users\\Hatami.Esmaeil\\source\\repos\\NotificationService\\NotificationService\\Domain\\Models\\CampaignJob.cs",
+              "RelativeToolTip": "NotificationService\\Domain\\Models\\CampaignJob.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T11:42:47.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NotificationCampaign.cs",
+              "DocumentMoniker": "C:\\Users\\Hatami.Esmaeil\\source\\repos\\NotificationService\\NotificationService\\Domain\\Models\\NotificationCampaign.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Domain\\Models\\NotificationCampaign.cs",
+              "ToolTip": "C:\\Users\\Hatami.Esmaeil\\source\\repos\\NotificationService\\NotificationService\\Domain\\Models\\NotificationCampaign.cs",
+              "RelativeToolTip": "NotificationService\\Domain\\Models\\NotificationCampaign.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T11:42:36.151Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
