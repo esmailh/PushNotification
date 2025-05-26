@@ -14,6 +14,7 @@
 - 🚫 قابلیت **لغو کمپین** حتی در میانه ارسال
 - 🔄 API برای مدیریت کمپین، ارسال و لغو ارسال
 - 🌍 قابلیت فیلتر کاربران بر اساس شهر، استان، دستگاه و ...
+- 🔒 **کنترل هم‌زمانی** با استفاده از `RowVersion`, `Redis lock` و حافظه داخلی
 
 ---
 
@@ -23,6 +24,7 @@
 - Entity Framework Core (InMemory برای تست)
 - Hangfire (با MemoryStorage)
 - Clean Architecture (Domain, Application, Infrastructure, API)
+- Redis (برای مدیریت Lock توزیع‌شده)
 
 ---
 
@@ -52,12 +54,13 @@ http://localhost:<port>/hangfire
 ```bash
 NotificationService/
 ├── Domain/
-│   └── Models, Enums, Interfaces
+│   └── Models, Enums, Interfaces (با RowVersion)
 ├── Application/
-│   └── Dispatcher, BatchSender, RetryService
+│   └── Dispatcher, BatchSender, RetryService (با چک کمپین لغو شده)
 ├── Infrastructure/
 │   ├── Channels/
 │   └── Persistence/
+│       └── RedisDistributedLock.cs
 ├── API/
 │   └── Controllers/
 ├── Program.cs
@@ -98,6 +101,7 @@ POST /api/campaigns/cancel/{campaignId}
 
 - این عملیات تمام جاب‌های Hangfire مربوط به کمپین را حذف می‌کند.
 - فیلد `IsCancelled` کمپین را `true` می‌کند.
+- اگر کمپین در حال ارسال باشد، اجرای آن از طریق JobTrackerService متوقف می‌شود.
 
 ---
 
@@ -121,11 +125,21 @@ POST /api/campaigns/retry-failed
 
 ---
 
+## 🧠 کنترل هم‌زمانی (Concurrency)
+
+- مدل‌ها دارای `RowVersion` هستند.
+- هر Job کمپین با بررسی وضعیت `IsCancelled` پیش از ارسال Batch اجرا می‌شود.
+- JobTrackerService با حافظه داخلی لیست کمپین‌های فعال را نگه‌داری می‌کند.
+- RedisDistributedLock برای اطمینان از اجرای یکتای Jobها به‌کار رفته است.
+
+---
+
 ## 📁 TODOهای پیشنهادی
 
 - اضافه کردن احراز هویت (JWT, API Key)
-- اضافه کردن Multi-Tenant بر اساس Header یا Claim
 - استفاده از SQL Server یا PostgreSQL به جای InMemory
+- مدیریت مجوز کاربران برای ارسال نوتیفیکیشن
+- ساخت UI برای مدیریت کمپین‌ها و مانیتور وضعیت ارسال
 
 ---
 
